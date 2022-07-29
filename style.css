@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: .5fr 1fr;
+    grid-template-areas: c1 c2;
+}
+.caja{
+    width: 100%;
+    height: 200px;
+   
+}
+.caja1{
+    background: red;
+    text-align: center;
+    grid-area:c1 c2;
+}
+.caja2{
+    background: aqua;
+    text-align: center;
+    grid-area:c1 c2;
+}
+.caja3{
+    background: black;
+    text-align: center;
+    grid-area:c2;
+}
+.caja4{
+    background: yellow;
+    text-align: center;
+    grid-area:c2;
+}
